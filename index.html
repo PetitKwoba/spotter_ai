@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotter.ai - Trucking Automation that works for you</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <!-- Logo -->
+            <div class="nav-logo">
+                <a href="index.html" class="logo-link" style="display: flex; align-items: center; gap: 8px; text-decoration: none;">
+                    <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 944.7 623.7" xml:space="preserve" height="20"><g id="dots_copy"><circle fill="#008080" cx="150" cy="472.7" r="147.4"></circle><circle fill="#F84960" cx="150" cy="150.8" r="147.4"></circle><circle fill="#BCDDDE" cx="472.3" cy="472.7" r="147.4"></circle><circle fill="#BCDDDE" cx="794.7" cy="472.7" r="147.4"></circle></g></svg>
+                    <span style="font-family: 'DM Sans', sans-serif; font-weight: 700; font-size: 1.5rem; color: #008080; letter-spacing: -0.02em;">Spotter</span>
+                </a>
+            </div>
+
+            <!-- Navigation Links -->
+            <div class="nav-links">
+                <div class="nav-item dropdown nav-top-products">
+                    <a href="#" class="nav-link">Products <svg class="dropdown-icon" width="12" height="12" viewBox="0 0 12 12"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="2" fill="none"/></svg></a>
+                    <div class="dropdown-menu">
+                            <a href="./pages/lens.html" class="dropdown-item">
+                            <div class="dropdown-item-content">
+                                <h4>Spotter Lens</h4>
+                                <p>Market intelligence at your fingertips</p>
+                            </div>
+                        </a>
+                            <a href="./pages/crm.html" class="dropdown-item">
+                            <div class="dropdown-item-content">
+                                <h4>Spotter CRM</h4>
+                                <p>Recruiting engine with visibility</p>
+                            </div>
+                        </a>
+                            <a href="./pages/driversapp.html" class="dropdown-item">
+                            <div class="dropdown-item-content">
+                                <h4>Driver App</h4>
+                                <p>Load optimization made simple</p>
+                            </div>
+                        </a>
+                            <a href="./pages/tms.html" class="dropdown-item">
+                            <div class="dropdown-item-content">
+                                <h4>Spotter TMS</h4>
+                                <p>Visibility engine for operations</p>
+                            </div>
+                        </a>
+                            <a href="./pages/sentinel.html" class="dropdown-item">
+                            <div class="dropdown-item-content">
+                                <h4>Spotter Sentinel</h4>
+                                <p>Safety automation and scoring</p>
+                            </div>
+                        </a>
+                            <a href="./pages/extension.html" class="dropdown-item">
+                            <div class="dropdown-item-content">
+                                <h4>Load Board Extension</h4>
+                                <p>Browser automation tools</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+
+                <div class="nav-item dropdown nav-top-resources">
+                    <a href="#" class="nav-link">Resources <svg class="dropdown-icon" width="12" height="12" viewBox="0 0 12 12"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="2" fill="none"/></svg></a>
+                    <div class="dropdown-menu">
+                            <a href="./pages/blog.html" class="dropdown-item">
+                            <div class="dropdown-item-content">
+                                <h4>Blog</h4>
+                                <p>Industry insights and updates</p>
+                            </div>
+                        </a>
+                            <a href="./pages/support.html" class="dropdown-item">
+                            <div class="dropdown-item-content">
+                                <h4>Support</h4>
+                                <p>Get help with our products</p>
+                            </div>
+                        </a>
+                            <a href="./pages/loan-calculators.html" class="dropdown-item">
+                            <div class="dropdown-item-content">
+                                <h4>Loan Calculators</h4>
+                                <p>Financial planning tools</p>
+                            </div>
+                        </a>
+                            <a href="./pages/insights.html" class="dropdown-item">
+                            <div class="dropdown-item-content">
+                                <h4>Insights</h4>
+                                <p>Data-driven perspectives</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="nav-item dropdown nav-top-company">
+                    <a href="#" class="nav-link">Company <svg class="dropdown-icon" width="12" height="12" viewBox="0 0 12 12"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="2" fill="none"/></svg></a>
+                    <div class="dropdown-menu">
+                            <a href="./pages/about.html" class="dropdown-item">
+                            <div class="dropdown-item-content">
+                                <h4>About</h4>
+                                <p>Our mission and team</p>
+                            </div>
+                        </a>
+                            <a href="./pages/careers.html" class="dropdown-item">
+                            <div class="dropdown-item-content">
+                                <h4>Careers</h4>
+                                <p>Join our team</p>
+                            </div>
+                        </a>
+                            <a href="./pages/contact.html" class="dropdown-item">
+                            <div class="dropdown-item-content">
+                                <h4>Contact</h4>
+                                <p>Get in touch</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- CTA Buttons -->
+            <div class="nav-cta">
+                    <a href="./pages/request-quote.html" class="btn-primary">Request a quote</a>
+            </div>
+
+            <!-- Mobile menu button -->
+            <button class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Trucking Automation<br>that works for you</h1>
+                <p class="hero-subtitle">Transform your freight operations with AI-powered solutions trusted by 10,000+ logistics professionals worldwide.</p>
+                <div class="hero-cta">
+                    <a href="https://spotter.ai/request-quote" class="btn-primary large">Request a quote</a>
+                    <a href="#capabilities" class="btn-secondary large">Explore Capabilities</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="dashboard-preview">
+                    <div class="dashboard-card">
+                        <div class="metric">
+                            <span class="metric-value">$50M+</span>
+                            <span class="metric-label">Cost Savings Generated</span>
+                        </div>
+                    </div>
+                    <div class="dashboard-card">
+                        <div class="metric">
+                            <span class="metric-value">96.7%</span>
+                            <span class="metric-label">AI Prediction Accuracy</span>
+                        </div>
+                    </div>
+                    <div class="dashboard-card">
+                        <div class="metric">
+                            <span class="metric-value">2.8M+</span>
+                            <span class="metric-label">Load Matches Processed</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Capabilities Section -->
+    <section id="capabilities" class="capabilities">
+        <div class="container">
+            <div class="section-header">
+                <h2>Explore Spotter's Capabilities</h2>
+                <p>Everything you need to optimize your logistics operations, powered by cutting-edge AI</p>
+            </div>
+            <div class="capabilities-grid">
+                <div class="capability-card">
+                    <div class="capability-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect width="48" height="48" rx="12" fill="#F0F8F8"/>
+                            <rect x="16" y="18" width="16" height="12" rx="2" fill="#008080"/>
+                            <circle cx="20" cy="32" r="2" fill="#F84960"/>
+                            <circle cx="28" cy="32" r="2" fill="#F84960"/>
+                        </svg>
+                    </div>
+                    <h3>Spotter Lens</h3>
+                    <h4>Market intelligence at your fingertips</h4>
+                    <p>Real-time freight market data analytics with comprehensive rankings and pricing insights.</p>
+                </div>
+                <div class="capability-card">
+                    <div class="capability-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect width="48" height="48" rx="12" fill="#F0F8F8"/>
+                            <rect x="16" y="16" width="16" height="16" rx="4" fill="#008080"/>
+                            <circle cx="21" cy="21" r="1.5" fill="#F84960"/>
+                            <circle cx="27" cy="21" r="1.5" fill="#F84960"/>
+                            <path d="M20 26h8" stroke="#F84960" stroke-width="1.5" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Spotter CRM</h3>
+                    <h4>Recruiting engine with visibility</h4>
+                    <p>Streamline your recruiting process with engagement tracking and performance visibility.</p>
+                </div>
+                <div class="capability-card">
+                    <div class="capability-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect width="48" height="48" rx="12" fill="#FDF2F4"/>
+                            <rect x="18" y="16" width="12" height="16" rx="2" fill="#F84960"/>
+                            <circle cx="24" cy="32" r="8" stroke="#008080" stroke-width="2" fill="none"/>
+                            <path d="M24 28v8" stroke="#008080" stroke-width="2"/>
+                            <path d="M20 32h8" stroke="#008080" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Driver App</h3>
+                    <h4>Load optimization made simple</h4>
+                    <p>AI-powered load scoring and matching system with real-time performance metrics.</p>
+                </div>
+                <div class="capability-card">
+                    <div class="capability-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect width="48" height="48" rx="12" fill="#F8FCFC"/>
+                            <rect x="14" y="18" width="20" height="12" rx="2" fill="#BCDDDE"/>
+                            <rect x="16" y="20" width="4" height="2" fill="#008080"/>
+                            <rect x="22" y="20" width="4" height="2" fill="#008080"/>
+                            <rect x="28" y="20" width="4" height="2" fill="#008080"/>
+                            <rect x="16" y="24" width="8" height="2" fill="#F84960"/>
+                        </svg>
+                    </div>
+                    <h3>Spotter TMS</h3>
+                    <h4>Visibility engine for operations</h4>
+                    <p>Complete transportation management system with data automation and operational visibility.</p>
+                </div>
+                <div class="capability-card">
+                    <div class="capability-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect width="48" height="48" rx="12" fill="#F0F8F8"/>
+                            <circle cx="24" cy="24" r="10" stroke="#008080" stroke-width="2" fill="none"/>
+                            <path d="M24 14v20" stroke="#F84960" stroke-width="2"/>
+                            <path d="M19 19l5 5 10-10" stroke="#F84960" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3>Spotter Sentinel</h3>
+                    <h4>Safety automation and scoring</h4>
+                    <p>Advanced driver scoring system with safety automation and compliance monitoring.</p>
+                </div>
+                <div class="capability-card">
+                    <div class="capability-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect width="48" height="48" rx="12" fill="#F8FCFC"/>
+                            <rect x="12" y="16" width="24" height="16" rx="3" fill="#BCDDDE"/>
+                            <rect x="14" y="18" width="20" height="3" fill="#008080"/>
+                            <circle cx="17" cy="23" r="1" fill="#F84960"/>
+                            <circle cx="20" cy="26" r="1" fill="#F84960"/>
+                            <circle cx="23" cy="23" r="1" fill="#F84960"/>
+                        </svg>
+                    </div>
+                    <h3>Load Board Extension</h3>
+                    <h4>Browser automation tools</h4>
+                    <p>Chrome and Firefox extension that automates load board workflows with advanced filtering.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="results">
+        <div class="container">
+            <div class="section-header">
+                <h2>Delivering Measurable Results across the industry</h2>
+                <p>Real impact from real customers who've transformed their freight operations with our AI-powered platform</p>
+            </div>
+            <div class="results-grid">
+                <div class="result-card">
+                    <div class="result-value">10K+</div>
+                    <div class="result-label">Active Fleet Managers</div>
+                    <div class="result-sublabel">Managing operations daily</div>
+                    <div class="result-growth">+127%</div>
+                </div>
+                <div class="result-card">
+                    <div class="result-value">2.8M+</div>
+                    <div class="result-label">Load Matches Processed</div>
+                    <div class="result-sublabel">Loads optimized monthly</div>
+                    <div class="result-growth">+89%</div>
+                </div>
+                <div class="result-card">
+                    <div class="result-value">$50M+</div>
+                    <div class="result-label">Cost Savings Generated</div>
+                    <div class="result-sublabel">Saved across all customers</div>
+                    <div class="result-growth">+156%</div>
+                </div>
+                <div class="result-card">
+                    <div class="result-value">96.7%</div>
+                    <div class="result-label">AI Predictions Accuracy</div>
+                    <div class="result-sublabel">Market prediction precision</div>
+                    <div class="result-growth">+12%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to revolutionize your Freight Operations?</h2>
+                <p>From dispatch to safety and hiring. Join 10,000+ logistics pros already optimizing with SpotterAI.</p>
+                <a href="https://spotter.ai/request-quote" class="btn-primary large">Request a quote</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="https://spotter.ai/driversapp">Driver App</a>
+                    <a href="https://spotter.ai/extension">Extension</a>
+                    <a href="https://spotter.ai/lens">Lens</a>
+                    <a href="https://spotter.ai/sentinel">Sentinel</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/people/Spotter-Sentinel/61577984011373/">Facebook</a>
+                    <a href="https://www.linkedin.com/company/spotter-sentinel/about/?viewAsMember=true">LinkedIn</a>
+                    <a href="https://www.instagram.com/spottersentinel/">Instagram</a>
+                    <a href="https://apps.apple.com/us/app/spotter-ai/id1670506993">App Store</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.spotter.ai">Google Play</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-copy">
+                    <p>&copy; 2025 Copyright spotter.ai. All rights reserved.</p>
+                    <div class="footer-legal">
+                        <a href="https://spotter.ai/terms-and-services">Terms of service</a>
+                        <a href="https://spotter.ai/ccpa">CCPA</a>
+                    </div>
+                </div>
+                <div class="footer-address">
+                    <p>251 Little Falls Dr. Wilmington DE 19808</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>

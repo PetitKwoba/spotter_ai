@@ -24,8 +24,7 @@ This project redesigns the spotter.ai navigation experience with:
 - **Products Dropdown**: Spotter Lens, CRM, Driver App, TMS, Sentinel, Load Board Extension
 - **Solutions Dropdown**: Fleet Management, Logistics Automation, Safety & Compliance, AI Optimization  
 - **Company Dropdown**: About Us, Careers, Blog, Support
-- **Direct Links**: Pricing page access
-- **CTA Buttons**: Login and Request Demo prominently displayed
+- **CTA Buttons**: Signup prominently displayed
 
 ### Design Highlights
 - Authentic spotter.ai branding with accurate font and colors
@@ -80,8 +79,7 @@ spotter_ai/
 - **Products**: All existing Spotter tools clearly categorized
 - **Solutions**: Business-focused groupings for different use cases  
 - **Company**: Standard corporate pages and resources
-- **Pricing**: Direct access to pricing information
-- **CTAs**: Login and demo request prominently placed
+- **CTAs**:  demo request prominently placed
 
 ### Visual Design
 - **Typography**: DM Sans font for modern, readable text (matching spotter.ai)
